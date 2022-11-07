@@ -47,7 +47,7 @@ Our processed data can be downloaded from [here](https://drive.google.com/file/d
 
 ## Quickstart
 
-We provide a pre-trained generative NeMF model and global motion predictor at [[here](https://drive.google.com/drive/folders/1Y1h0Ui6lcA4t78xZ9_WmN7q6xffb5De3?usp=share_link). Download and extract them to the `outputs` directory.
+We provide a pre-trained generative NeMF model and global motion predictor at [here](https://drive.google.com/drive/folders/1Y1h0Ui6lcA4t78xZ9_WmN7q6xffb5De3?usp=share_link). Download and extract them to the `outputs` directory.
 
 ### Application
 
