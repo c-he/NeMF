@@ -393,7 +393,6 @@ def run_motion_inbetweening():
     clip_inbetweens = [10, 20, 30]
     keyframe_inbetweens = [5, 10, 15, 20]
 
-
     for interval in clip_inbetweens:
         sub_folder_dir = os.path.join(output_dir, f'clip_{interval}')
         os.makedirs(sub_folder_dir, exist_ok=True)
