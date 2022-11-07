@@ -65,7 +65,7 @@ python src/evaluation.py --config evaluation.yaml --task {evaluation task} --loa
 ```
 The tasks we implement here include `ablation_study`, `comparison`, `inbetween_benchmark`, `super_sampling`, and `smoothness_test`, which cover the tables and figures we showed in the paper. The quantitative results will be saved in `.csv` files.
 
-To evaludate FID and Diversity, we provide a pre-trained feature extractor [here](https://drive.google.com/file/d/1cInA6LfOaISg0BzkgQHXwFt4u4YBGQ34/view?usp=share_link), which is essentially an auto-encoder. You can train a new one on your data by running:
+To evaludate FID and Diversity, we provide a pre-trained feature extractor at [here](https://drive.google.com/file/d/1cInA6LfOaISg0BzkgQHXwFt4u4YBGQ34/view?usp=share_link), which is essentially an auto-encoder. You can train a new one on your data by running:
 ```
 python src/train.py evaluation.yaml
 ```
