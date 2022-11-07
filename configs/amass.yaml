@@ -1,0 +1,14 @@
+dataset_dir: ./data/amass/test
+# dataset_dir: ./data/amass/gmp
+# dataset_dir: ./data/amass/single
+
+data:
+    fps: 30
+    clip_length: 128
+    gender: male
+    up: z
+
+canonical: False
+unified_orientation: True
+single_motion: False
+normalize: False
