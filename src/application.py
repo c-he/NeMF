@@ -391,9 +391,8 @@ def run_motion_inbetweening():
     output_dir = os.path.join(opt.save_path, 'motion_inbetweening', datetime.now().strftime("%Y-%m-%d-%H-%M-%S"))
 
     clip_inbetweens = [10, 20, 30]
-    # clip_inbetweens = []
     keyframe_inbetweens = [5, 10, 15, 20]
-    # keyframe_inbetweens = []
+
 
     for interval in clip_inbetweens:
         sub_folder_dir = os.path.join(output_dir, f'clip_{interval}')
@@ -430,7 +429,6 @@ def run_motion_inbetweening():
                 errors['translation_error'].append(error['translation'] * 100.0)
 
             offset += ngpu * args.batch_size
-            # break
 
         df = pd.DataFrame.from_dict(errors)
         df.to_csv(os.path.join(sub_folder_dir, 'motion_recon.csv'), index=False)
@@ -470,7 +468,6 @@ def run_motion_inbetweening():
                 errors['translation_error'].append(error['translation'] * 100.0)
 
             offset += ngpu * args.batch_size
-            # break
 
         df = pd.DataFrame.from_dict(errors)
         df.to_csv(os.path.join(sub_folder_dir, 'motion_recon.csv'), index=False)
