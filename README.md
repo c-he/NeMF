@@ -2,7 +2,7 @@
 
 ### [Paper](https://arxiv.org/abs/2206.03287) | [Project](https://cs.yale.edu/homes/che/projects/nemf/)
 
-[Chengan He](https://cs.yale.edu/homes/che/)<sup>1</sup>, [Jun Saito](https://research.adobe.com/person/jun-saito/)<sup>2</sup>, [James Zachary](https://jameszachary.com/)<sup>2</sup>, [Holly Rushmeier](https://graphics.cs.yale.edu/people/holly-rushmeier), [Yi Zhou](https://zhouyisjtu.github.io/)<sup>2</sup>
+[Chengan He](https://cs.yale.edu/homes/che/)<sup>1</sup>, [Jun Saito](https://research.adobe.com/person/jun-saito/)<sup>2</sup>, [James Zachary](https://jameszachary.com/)<sup>2</sup>, [Holly Rushmeier](https://graphics.cs.yale.edu/people/holly-rushmeier)<sup>1</sup>, [Yi Zhou](https://zhouyisjtu.github.io/)<sup>2</sup>
 
 <sup>1</sup>Yale University, <sup>2</sup>Adobe Research
 
