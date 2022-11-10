@@ -28,12 +28,6 @@ class Arguments:
         self.animal.parents = np.array(self.animal.parents).astype(np.int32)
         self.animal.joint_num = len(self.animal.parents)
 
-        with open(os.path.join(config_path, 'renderpeople.yml'), 'r') as f:
-            ren = yaml.safe_load(f)
-        self.ren = Struct(**ren)
-        self.ren.parents = np.array(self.ren.parents).astype(np.int32)
-        self.ren.joint_num = len(self.ren.parents)
-
         self.filename = os.path.splitext(filename)[0]
         with open(os.path.join(config_path, filename), 'r') as f:
             config = yaml.safe_load(f)
