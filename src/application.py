@@ -286,7 +286,7 @@ def motion_reconstruction(target, output_dir, steps, T=None, offset=0):
                      poses=poses, trans=c2c(trans[i]), betas=np.zeros(10), gender=args.data.gender, mocap_framerate=fps)
             if step == 1:
                 np.savez(os.path.join(output_dir, f'recon_{offset + i:03d}_gt.npz'),
-                         poses=poses_gt, trans=c2c(trans[i]), betas=np.zeros(10), gender=args.data.gender, mocap_framerate=args.data.fps)
+                         poses=poses_gt, trans=c2c(trans_gt[i]), betas=np.zeros(10), gender=args.data.gender, mocap_framerate=args.data.fps)
 
         if step == 1:
             orientation_error = criterion_geo(root_orient.view(-1, 3, 3), root_orient_gt.view(-1, 3, 3))
