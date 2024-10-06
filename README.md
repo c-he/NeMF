@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 ### Body Model
 
-Our code relies on [SMPL](https://smpl.is.tue.mpg.de/) as the body model. You can download our processed version from [here](https://drive.google.com/file/d/1c7Nbc9f7_17hwICnIysg96Xo0vC-Kfq0/view?usp=share_link).
+Our code relies on [SMPL](https://smpl.is.tue.mpg.de/) as the body model. You can download our processed version from [here](https://yaleedu-my.sharepoint.com/:u:/g/personal/chengan_he_yale_edu/EdwVlZxMHJtGs4aM2Yp7mv4B1V9w4BanJv9N1Z9-y376jg?e=M3Yiv6).
 
 ### Datasets
 
@@ -33,7 +33,7 @@ Our code relies on [SMPL](https://smpl.is.tue.mpg.de/) as the body model. You ca
 ```bash
 python src/datasets/amass.py amass.yaml
 ```
-You can also download our processed AMASS dataset from [here](https://drive.google.com/file/d/1BwGYRsFT1FCF2vil2wtvK-HAEe8ZILhV/view?usp=share_link).
+You can also download our processed AMASS dataset from [here](https://yaleedu-my.sharepoint.com/:u:/g/personal/chengan_he_yale_edu/EQnq2uAfhSZNgxMK1YNXj8sB5Y_0KWq1xPAcWGw3NpM6_w?e=nTOWgw).
 
 #### MANN
 
@@ -41,13 +41,13 @@ The dog mocap data in [MANN](https://github.com/sebastianstarke/AI4Animation/tre
 ```bash
 python src/datasets/animal.py dog_mocap.yaml
 ```
-Our processed data can be downloaded from [here](https://drive.google.com/file/d/1Ds1VmSpk6XX7ZYsMzv_aE-NibpcELVw_/view?usp=share_link).
+Our processed data can be downloaded from [here](https://yaleedu-my.sharepoint.com/:u:/g/personal/chengan_he_yale_edu/ESlxRrLA4GdBsKTv2SegEFsBX-4WueGIUa9yNMnHDwtFjg?e=R6GOqU).
 
 > **Note:** All the preprocessed data mentioned before should be extracted to the `data` directory. Otherwise you need to update the configuration files to point them to the path you extracted.
 
 ## Quickstart
 
-We provide a pre-trained generative NeMF model and global motion predictor at [here](https://drive.google.com/drive/folders/1Y1h0Ui6lcA4t78xZ9_WmN7q6xffb5De3?usp=share_link). Download and extract them to the `outputs` directory.
+We provide a pre-trained [generative NeMF model](https://yaleedu-my.sharepoint.com/:u:/g/personal/chengan_he_yale_edu/ERadqRp5XedAn0pOyGeFWOMB3LH7g7w9c4OyzB7nmweHqA?e=8P1NWU) and [global motion predictor](https://yaleedu-my.sharepoint.com/:u:/g/personal/chengan_he_yale_edu/ERmQUqW5z_tAncGS1XzTJ6sBGnIxEawVgK9J-vID-uT6iw?e=TC6wfQ). Download and extract them to the `outputs` directory.
 
 ### Application
 
@@ -65,7 +65,7 @@ python src/evaluation.py --config evaluation.yaml --task {evaluation task} --loa
 ```
 The tasks we implement here include `ablation_study`, `comparison`, `inbetween_benchmark`, `super_sampling`, and `smoothness_test`, which cover the tables and figures we showed in the paper. The quantitative results will be saved in `.csv` files.
 
-To evaludate FID and Diversity, we provide a pre-trained feature extractor at [here](https://drive.google.com/file/d/1cInA6LfOaISg0BzkgQHXwFt4u4YBGQ34/view?usp=share_link), which is essentially an auto-encoder. You can train a new one on your data by running:
+To evaludate FID and Diversity, we provide a pre-trained feature extractor at [here](https://yaleedu-my.sharepoint.com/:u:/g/personal/chengan_he_yale_edu/EVXKF8Tc1t5CnrkswLS0qUoBi_1YsDa_BpMDAalEuTblSQ?e=bcxHAP), which is essentially an auto-encoder. You can train a new one on your data by running:
 ```
 python src/train.py evaluation.yaml
 ```
