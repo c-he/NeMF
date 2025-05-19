@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 ### Body Model
 
-Our code relies on [SMPL](https://smpl.is.tue.mpg.de/) as the body model. You can download our processed version from [here](https://yaleedu-my.sharepoint.com/:u:/g/personal/chengan_he_yale_edu/EdwVlZxMHJtGs4aM2Yp7mv4B1V9w4BanJv9N1Z9-y376jg?e=M3Yiv6).
+Our code relies on [SMPL](https://smpl.is.tue.mpg.de/) as the body model. Please download it from Max Planck and accept the terms of license there.
 
 ### Datasets
 
@@ -33,7 +33,6 @@ Our code relies on [SMPL](https://smpl.is.tue.mpg.de/) as the body model. You ca
 ```bash
 python src/datasets/amass.py amass.yaml
 ```
-You can also download our processed AMASS dataset from [here](https://yaleedu-my.sharepoint.com/:u:/g/personal/chengan_he_yale_edu/EQnq2uAfhSZNgxMK1YNXj8sB5Y_0KWq1xPAcWGw3NpM6_w?e=nTOWgw).
 
 #### MANN
 
@@ -41,9 +40,8 @@ The dog mocap data in [MANN](https://github.com/sebastianstarke/AI4Animation/tre
 ```bash
 python src/datasets/animal.py dog_mocap.yaml
 ```
-Our processed data can be downloaded from [here](https://yaleedu-my.sharepoint.com/:u:/g/personal/chengan_he_yale_edu/ESlxRrLA4GdBsKTv2SegEFsBX-4WueGIUa9yNMnHDwtFjg?e=R6GOqU).
 
-> **Note:** All the preprocessed data mentioned before should be extracted to the `data` directory. Otherwise you need to update the configuration files to point them to the path you extracted.
+> **Note:** All the data mentioned before should be downloaded **from their original source with corresponding licenses** and processed to the `data` directory. Otherwise you need to update the configuration files to point them to the path you extracted.
 
 ## Quickstart
 
