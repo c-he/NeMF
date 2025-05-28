@@ -119,11 +119,13 @@ Our codebase outputs `.npz` data following the AMASS data format, thus they can 
 
 If you found this code or paper useful, please consider citing:
 ```
-@inproceedings{he2022nemf,
-    author = {He, Chengan and Saito, Jun and Zachary, James and Rushmeier, Holly and Zhou, Yi},
-    title = {NeMF: Neural Motion Fields for Kinematic Animation},
-    booktitle = {NeurIPS},
-    year = {2022}
+@article{he2022nemf,
+  title={NeMF: Neural Motion Fields for Kinematic Animation},
+  author={He, Chengan and Saito, Jun and Zachary, James and Rushmeier, Holly and Zhou, Yi},
+  journal={Advances in Neural Information Processing Systems},
+  volume={35},
+  pages={4244--4256},
+  year={2022}
 }
 ```
 
