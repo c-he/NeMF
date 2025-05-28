@@ -29,7 +29,7 @@ Our code relies on [SMPL](https://smpl.is.tue.mpg.de/) as the body model. Please
 
 #### AMASS
 
-[AMASS](https://amass.is.tue.mpg.de/) mocap data is used to train and evaluate our model in most of the experiments. After downloading its raw data, we run the [processing scripts](https://github.com/davrempe/humor/tree/main/data#amass) provided by HuMoR to unify frame rates, detect contacts, and remove problematic sequences. We then split the data into training, validation and testing sets by running:
+[AMASS](https://amass.is.tue.mpg.de/) mocap data is used to train and evaluate our model in most of the experiments. Please download it from Max Planck and accept the terms of license there. After downloading its raw data, we run the [processing scripts](https://github.com/davrempe/humor/tree/main/data#amass) provided by HuMoR to unify frame rates, detect contacts, and remove problematic sequences. We then split the data into training, validation and testing sets by running:
 ```bash
 python src/datasets/amass.py amass.yaml
 ```
