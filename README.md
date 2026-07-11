@@ -1,6 +1,6 @@
 # NeMF: Neural Motion Fields for Kinematic Animation (NeurIPS 2022)
 
-### [Paper](https://arxiv.org/abs/2206.03287) | [Project](https://cs.yale.edu/homes/che/projects/nemf/)
+### [Paper](https://arxiv.org/abs/2206.03287) | [Project](https://c-he.github.io/NeMF/)
 
 [Chengan He](https://cs.yale.edu/homes/che/)<sup>1</sup>, [Jun Saito](https://research.adobe.com/person/jun-saito/)<sup>2</sup>, [James Zachary](https://jameszachary.com/)<sup>2</sup>, [Holly Rushmeier](https://graphics.cs.yale.edu/people/holly-rushmeier)<sup>1</sup>, [Yi Zhou](https://zhouyisjtu.github.io/)<sup>2</sup>
 
